@@ -27,7 +27,7 @@ blockquote {
 
 .content-section_theme_dark {
   background-color: #131313;
-  color: #F5F5F5;
+  color: #f5f5f5;
 }
 
 .content-section_theme_bright {
@@ -94,16 +94,15 @@ blockquote {
   gap: 8px;
 }
 
-.card_text-only {
-
-}
+/* .card_text-only {
+} */
 
 .card_theme_dark {
   background-color: #343434;
 }
 
 .card_theme_bright {
-  background-color: #FEE42A;
+  background-color: #fee42a;
   color: #131313;
 }
 
@@ -132,7 +131,7 @@ blockquote {
 }
 
 .card__title {
-  font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 500;
@@ -171,8 +170,8 @@ blockquote {
   width: 78px;
 }
 
-.header__menu {
-}
+/* .header__menu {
+} */
 
 .header__menu-list {
   display: flex;
@@ -253,7 +252,7 @@ blockquote {
 }
 
 .footer {
-  border-top: 1px solid #FEE42A;
+  border-top: 1px solid #fee42a;
   padding: 20px;
   display: flex;
 }
@@ -274,5 +273,5 @@ blockquote {
 
 .footer__links-link {
   text-decoration: none;
-  color: #F5F5F5;
+  color: #f5f5f5;
 }
