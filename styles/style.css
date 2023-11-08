@@ -152,7 +152,7 @@ blockquote {
 .header {
   padding: 24px 20px;
   display: flex;
-  height: 132px;
+  /* height: 132px; */
 }
 
 .header__logo {
@@ -234,19 +234,19 @@ blockquote {
 
 .reasons {
   padding: 40px 20px;
-  height: 1368px;
+  /* height: 1368px; */
 }
 
 .how-to {
   padding: 40px 20px 60px;
-  height: 1849px;
+  /* height: 1849px; */
 }
 
 .footer {
   border-top: 1px solid #fee42a;
   padding: 20px;
   display: flex;
-  height: 62px;
+  /* height: 62px; */
 }
 
 .footer__copy {
