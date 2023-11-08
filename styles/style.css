@@ -1,0 +1,272 @@
+body {
+  margin: 0;
+  background-color: #1e1e1e;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+.content-section {
+  width: 360px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.content-section_theme_dark {
+  background-color: #131313;
+  color: #f5f5f5;
+}
+
+.content-section_theme_bright {
+  background-color: #fee42a;
+  color: #131313;
+}
+
+.content-section__subtitle {
+  font-family: 'EB Garamond', 'Times New Roman', serif;
+  font-size: 28px;
+
+  font-weight: 500;
+  line-height: 115%; /* 32.2px */
+  margin-bottom: 31px;
+}
+
+.content-section__introduction {
+  font-size: 20px;
+  line-height: 27px; /* 135% */
+  margin-bottom: 32px;
+}
+
+.content-section__list {
+  padding-left: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.content-section__list-item {
+  line-height: 21.6px;
+}
+
+.content-section__list-item::marker {
+  font-size: 18px;
+}
+
+.content-section__list-accent {
+  font-weight: 700;
+  line-height: 21.6px; /* 135% */
+}
+
+.cards-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.cards-list-item {
+  display: block;
+}
+
+.card {
+  width: 319px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.card_theme_dark {
+  background-color: #343434;
+}
+
+.card_theme_bright {
+  background-color: #fee42a;
+  color: #131313;
+}
+
+.card__author {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card__author-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.card__author-name {
+  font-weight: 700;
+  line-height: 135%; /* 21.6px */
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card__title {
+  font-family: 'EB Garamond', 'Times New Roman', serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 135%; /* 29.7px */
+  margin-top: 8px;
+}
+
+.card_text-only .card__title {
+  margin-top: 0;
+}
+
+.card__text {
+  line-height: 21.6px; /* 135% */
+}
+
+.accent-span {
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.header {
+  padding: 24px 20px;
+  display: flex;
+  /* height: 132px; */
+}
+
+.header__logo {
+  margin-right: auto;
+}
+
+.header__logo-image {
+  width: 79px;
+  height: 16px;
+}
+
+/* .header__menu {
+} */
+
+.header__menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style: none;
+}
+
+.header__menu-item {
+  display: block;
+}
+
+.header__menu-item_active .header__menu-link {
+  border-width: 0;
+}
+
+.header__menu-link {
+  color: #f5f5f5;
+  line-height: 19.2px; /* 120% */
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+
+.cover {
+  padding: 7px 24px 0 20px;
+  background-image: url(/images/cover.svg);
+  background-repeat: no-repeat;
+  background-size: 95% auto;
+  background-position: 20px 30px;
+  height: 229px;
+}
+
+.cover__title {
+  color: #fff;
+  font-family: 'EB Garamond', 'Times New Roman', serif;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 100%; /* 72px */
+}
+
+.intro {
+  padding: 30px 20px 37px;
+}
+
+.intro__heading {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.intro__title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 120%; /* 19.2px */
+}
+
+.intro__date {
+  white-space: nowrap;
+}
+
+.intro__main-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  line-height: 21.6px; /* 135% */
+}
+
+.reasons {
+  padding: 40px 20px;
+  /* height: 1368px; */
+}
+
+.how-to {
+  padding: 40px 20px 60px;
+  /* height: 1849px; */
+}
+
+.footer {
+  border-top: 1px solid #fee42a;
+  padding: 20px;
+  display: flex;
+  /* height: 62px; */
+}
+
+.footer__copy {
+  margin-right: auto;
+}
+
+.footer__links {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  font-size: 14px;
+  line-height: 125%; /* 17.5px */
+}
+
+.footer__links-item {
+  display: block;
+}
+
+.footer__links-link {
+  text-decoration: none;
+  color: #f5f5f5;
+}
