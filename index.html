@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
+    <meta charset="utf-8">
     <title>С чистого листа</title>
-    <link rel="stylesheet" href="/fonts/fonts.css" />
-    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/fonts/fonts.css">
+    <link rel="stylesheet" href="/styles/style.css">
   </head>
   <body>
     <header class="content-section content-section_theme_dark header">
-      <a href="/" class="header__logo">
-        <img class="header__logo-image" alt="logo" src="/images/logo.svg" />
+      <a class="header__logo">
+        <img class="header__logo-image" alt="logo" src="/images/logo.svg">
       </a>
       <nav class="header__menu">
         <ul class="header__menu-list">
@@ -117,18 +118,17 @@
           из-за совокупности нескольких факторов. Вот что может помочь:
         </p>
         <ul class="cards-list">
-          <li>
+          <li class="cards-list-item">
             <article class="card card_theme_dark">
               <div class="card__author">
                 <img
                   class="card__author-photo"
                   src="/images/polyarinov.png"
-                  alt="polyarinov"
-                />
-                <div class="card__author-name">Алексей Поляринов</div>
+                  alt="Фото Алексея Поляринова">
+                <span class="card__author-name">Алексей Поляринов</span>
               </div>
               <div class="card__content">
-                <div class="card__title">Начать любыми словами</div>
+                <h2 class="card__title">Начать любыми словами</h2>
                 <div class="card__text">
                   Любыми — без шуток. Если не верите нам, посмотрите, например,
                   чем открывается эссе Алексея Поляринова «Чарли Кауфман:
@@ -141,12 +141,12 @@
               </div>
             </article>
           </li>
-          <li>
-            <article class="card card_theme_bright">
+          <li class="cards-list-item">
+            <article class="card card_theme_bright card_text-only">
               <div class="card__content">
-                <div class="card__title">
+                <h2 class="card__title">
                   Поставить перед собой рамку для фотографии
-                </div>
+                </h2>
                 <div class="card__text">
                   Самую обычную: 10 на 15 сантиметров. Уже от одного ощущения,
                   что предстоит работа над большой и сложной задачей, может
@@ -158,18 +158,17 @@
               </div>
             </article>
           </li>
-          <li>
+          <li class="cards-list-item">
             <article class="card card_theme_dark">
               <div class="card__author">
                 <img
                   class="card__author-photo"
                   src="/images/bunin.png"
-                  alt="bunin"
-                />
+                  alt="Фото Ивана Бунина">
                 <div class="card__author-name">Иван Бунин</div>
               </div>
               <div class="card__content">
-                <div class="card__title">Сделать из задачи рутину</div>
+                <h2 class="card__title">Сделать из задачи рутину</h2>
                 <div class="card__text">
                   «Писать стихи нужно каждый день, подобно тому как скрипач или
                   пианист непременно должен каждый день без пропусков по
@@ -189,10 +188,10 @@
     <footer class="content-section content-section_theme_dark footer">
       <div class="footer__copy">© VЁRSTKA</div>
       <ul class="footer__links">
-        <li>
+        <li class="footer__links-item">
           <a class="footer__links-link" href="#0">ВК</a>
         </li>
-        <li>
+        <li class="footer__links-item">
           <a class="footer__links-link" href="#0">Ютуб</a>
         </li>
       </ul>
