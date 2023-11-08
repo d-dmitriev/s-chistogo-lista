@@ -70,7 +70,6 @@ blockquote {
 .content-section__list-accent {
   font-weight: 700;
   line-height: 21.6px; /* 135% */
-  margin-right: 3px;
 }
 
 .cards-list {
@@ -85,6 +84,8 @@ blockquote {
 }
 
 .card {
+  width: 319px;
+  box-sizing: border-box;
   border-radius: 30px;
   padding: 20px;
 }
